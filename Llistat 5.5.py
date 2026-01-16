@@ -1,0 +1,9 @@
+x = 5 # Enter
+y = 3.14 # Flotant
+z = 2 + 3j # Complex
+nom = ('Manuel') # Cadena de caràcters
+nombres = [1, 2, 3, 4, 5] # Llista
+fumador = False # Booleà
+punt = (3, 4) # Tupla
+fruites = {'poma', 'pera', 'taronja'} # Conjunt
+persona = {'nom': 'Marc', 'edat': 18} # Diccionari
