@@ -1,0 +1,13 @@
+text = 'Python és un bon llenguatge'
+t = text.upper()
+print(t)
+t = text.lower()
+print(t)
+t = text.title()
+print(t)
+t = text.strip()
+print(t)
+t = text.replace(' ', '_')
+print(t)
+posi = text.find('yth')
+print(posi)
