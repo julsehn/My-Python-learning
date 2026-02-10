@@ -1,0 +1,6 @@
+print("#                      Banc dels milions                       #")
+print("#          Benvingut al banc dels milions, on els teus         #")
+print("#     on si necesites uns calerets, només cal que ens truqui!  #")
+print("")
+print("")
+diners = int(input("        Introdueix la quantitat de diners que necesites:        "))
