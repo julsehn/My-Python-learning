@@ -68,10 +68,10 @@ if key == "1234":
                 print("Fons insuficients. Operació cancel·lada.")
                 prestec = input("Voleu fer un prestec per cobrir la quantitat? (s/n): ")
                 if prestec == "s":
-                    
-            else:
-                saldo -= quantitat
-                print(f"Ha retirat {quantitat} euros. El seu nou saldo és de {saldo} euros.")
+                    programa_prestec(quantitat)
+                else:
+                    saldo -= quantitat
+                    print(f"Ha retirat {quantitat} euros. El seu nou saldo és de {saldo} euros.")
         
         elif opcio == "3":
             quantitat = int(input("Introdueixi la quantitat a ingressar: "))
