@@ -14,7 +14,7 @@ def mostrar_encapcalament():
     print()
 
 
-def solicitar_float(prompt, min_value=None, max_value=None):
+def solicitar_float(prompt, min_value=0.1, max_value=None):
     while True:
         try:
             valor = float(input(prompt))
@@ -88,7 +88,7 @@ def comprovar_saldo(saldo_actual):
 
 
 def pause():
-    input("\nPrem Enter per tornar al menú...")
+    input("\nPrem qualsevol tecla per tornar al menú...")
 
 
 def solicitar_prestec(saldo_actual):
