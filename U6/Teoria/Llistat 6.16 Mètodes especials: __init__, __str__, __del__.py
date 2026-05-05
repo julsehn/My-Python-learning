@@ -7,7 +7,7 @@ class Persona:
         return f"{self.nom} té {self.edat} anys."
 
     def __del__(self):
-        print(f"{self.nom} ha estat eliminat.")
+        print(f"{self.nom} ha mort.")
 
 p1 = Persona("Joan", 30)
 p1 = None
